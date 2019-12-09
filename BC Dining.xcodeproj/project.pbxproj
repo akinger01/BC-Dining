@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		463A4206239EB80500A16873 /* HallsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463A4205239EB80500A16873 /* HallsTableViewCell.swift */; };
 		466F77922395BC960055ADE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F77912395BC960055ADE8 /* AppDelegate.swift */; };
 		466F77942395BC960055ADE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F77932395BC960055ADE8 /* SceneDelegate.swift */; };
 		466F77962395BC960055ADE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F77952395BC960055ADE8 /* ViewController.swift */; };
 		466F77992395BC960055ADE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466F77972395BC960055ADE8 /* Main.storyboard */; };
 		466F779B2395BC970055ADE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466F779A2395BC970055ADE8 /* Assets.xcassets */; };
 		466F779E2395BC970055ADE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466F779C2395BC970055ADE8 /* LaunchScreen.storyboard */; };
+		466F77A62395C6FE0055ADE8 /* DiningHallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F77A52395C6FE0055ADE8 /* DiningHallViewController.swift */; };
+		466F77A82395CFF50055ADE8 /* DiningHalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F77A72395CFF50055ADE8 /* DiningHalls.swift */; };
+		466F77AA2395D02F0055ADE8 /* DiningHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F77A92395D02F0055ADE8 /* DiningHall.swift */; };
+		466F77AC2395D2ED0055ADE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 466F77AB2395D2ED0055ADE8 /* GoogleService-Info.plist */; };
+		F7409E9CF68C47584577FF8B /* Pods_BC_Dining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B815A86E0B0A263B5679AA0C /* Pods_BC_Dining.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C7A08523E1B5B78789E86A5 /* Pods-BC Dining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BC Dining.release.xcconfig"; path = "Target Support Files/Pods-BC Dining/Pods-BC Dining.release.xcconfig"; sourceTree = "<group>"; };
+		463A4205239EB80500A16873 /* HallsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallsTableViewCell.swift; sourceTree = "<group>"; };
 		466F778E2395BC960055ADE8 /* BC Dining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BC Dining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		466F77912395BC960055ADE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		466F77932395BC960055ADE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,12 @@
 		466F779A2395BC970055ADE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		466F779D2395BC970055ADE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		466F779F2395BC970055ADE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466F77A52395C6FE0055ADE8 /* DiningHallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHallViewController.swift; sourceTree = "<group>"; };
+		466F77A72395CFF50055ADE8 /* DiningHalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHalls.swift; sourceTree = "<group>"; };
+		466F77A92395D02F0055ADE8 /* DiningHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHall.swift; sourceTree = "<group>"; };
+		466F77AB2395D2ED0055ADE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B815A86E0B0A263B5679AA0C /* Pods_BC_Dining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BC_Dining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB67212E7E1F18B63F49F627 /* Pods-BC Dining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BC Dining.debug.xcconfig"; path = "Target Support Files/Pods-BC Dining/Pods-BC Dining.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7409E9CF68C47584577FF8B /* Pods_BC_Dining.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				466F77902395BC960055ADE8 /* BC Dining */,
 				466F778F2395BC960055ADE8 /* Products */,
+				6A483C96CE4FBBC447B3FC15 /* Pods */,
+				5C517A3BA17F8CF3B340C482 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +75,35 @@
 			children = (
 				466F77912395BC960055ADE8 /* AppDelegate.swift */,
 				466F77932395BC960055ADE8 /* SceneDelegate.swift */,
+				466F77A72395CFF50055ADE8 /* DiningHalls.swift */,
+				466F77A92395D02F0055ADE8 /* DiningHall.swift */,
 				466F77952395BC960055ADE8 /* ViewController.swift */,
+				463A4205239EB80500A16873 /* HallsTableViewCell.swift */,
+				466F77A52395C6FE0055ADE8 /* DiningHallViewController.swift */,
 				466F77972395BC960055ADE8 /* Main.storyboard */,
 				466F779A2395BC970055ADE8 /* Assets.xcassets */,
 				466F779C2395BC970055ADE8 /* LaunchScreen.storyboard */,
 				466F779F2395BC970055ADE8 /* Info.plist */,
+				466F77AB2395D2ED0055ADE8 /* GoogleService-Info.plist */,
 			);
 			path = "BC Dining";
+			sourceTree = "<group>";
+		};
+		5C517A3BA17F8CF3B340C482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B815A86E0B0A263B5679AA0C /* Pods_BC_Dining.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A483C96CE4FBBC447B3FC15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB67212E7E1F18B63F49F627 /* Pods-BC Dining.debug.xcconfig */,
+				1C7A08523E1B5B78789E86A5 /* Pods-BC Dining.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 466F77A22395BC970055ADE8 /* Build configuration list for PBXNativeTarget "BC Dining" */;
 			buildPhases = (
+				7A900F7DCD8C4631C0DE4C32 /* [CP] Check Pods Manifest.lock */,
 				466F778A2395BC960055ADE8 /* Sources */,
 				466F778B2395BC960055ADE8 /* Frameworks */,
 				466F778C2395BC960055ADE8 /* Resources */,
+				A07CB64A46E163E0A5984BFE /* [CP] Embed Pods Frameworks */,
+				B3A3CEB202193D2A7EAA3D6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				466F779E2395BC970055ADE8 /* LaunchScreen.storyboard in Resources */,
+				466F77AC2395D2ED0055ADE8 /* GoogleService-Info.plist in Resources */,
 				466F779B2395BC970055ADE8 /* Assets.xcassets in Resources */,
 				466F77992395BC960055ADE8 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +176,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A900F7DCD8C4631C0DE4C32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BC Dining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07CB64A46E163E0A5984BFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BC Dining/Pods-BC Dining-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BC Dining/Pods-BC Dining-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BC Dining/Pods-BC Dining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A3CEB202193D2A7EAA3D6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BC Dining/Pods-BC Dining-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BC Dining/Pods-BC Dining-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BC Dining/Pods-BC Dining-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		466F778A2395BC960055ADE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466F77A82395CFF50055ADE8 /* DiningHalls.swift in Sources */,
+				463A4206239EB80500A16873 /* HallsTableViewCell.swift in Sources */,
 				466F77962395BC960055ADE8 /* ViewController.swift in Sources */,
 				466F77922395BC960055ADE8 /* AppDelegate.swift in Sources */,
+				466F77A62395C6FE0055ADE8 /* DiningHallViewController.swift in Sources */,
+				466F77AA2395D02F0055ADE8 /* DiningHall.swift in Sources */,
 				466F77942395BC960055ADE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +388,7 @@
 		};
 		466F77A32395BC970055ADE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB67212E7E1F18B63F49F627 /* Pods-BC Dining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +407,7 @@
 		};
 		466F77A42395BC970055ADE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7A08523E1B5B78789E86A5 /* Pods-BC Dining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
